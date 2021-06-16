@@ -19,7 +19,8 @@
   --color-white: #ffffff;
   --color-black: #000000;
   --header-height: 5em;
-  --box-shadow: 0px 0px 17px -8px #000000;
+  --box-shadow: 0px 0px 10px -8px #000000;
+  --radius: 5px;
 }
 
 /* header */
@@ -30,7 +31,6 @@
 .initials {
   width: 3rem;
   display: inline-block;
-  border-radius: 4px;
   font-size: 2rem;
   font-family: 'Parisienne', cursive;
   text-align: center;
@@ -40,9 +40,112 @@
 }
 .nav-item {
   padding: 0 1rem;
+  text-align: center;
 }
 .nav-item:hover {
   border: 1px solid var(--color-primary);
   transition: all 0.4 0s ease-in;
-  border-radius: 5px;
+  border-radius: var(--radius);
+}
+
+.header__short {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.jumbo {
+  width: 100vw;
+  height: 60vh;
+  background-color: #eeeded;
+  box-shadow: var(--box-shadow);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description h1 {
+  font-weight: bolder;
+}
+
+.header__photo {
+  position: relative;
+}
+
+.shape {
+  width: 17rem;
+  height: 17rem;
+  border-radius: 69% 31% 69% 31% / 68% 66% 34% 32%;
+  background-color: var(--color-primary);
+  box-shadow: var(--box-shadow);
+  position: absolute;
+  top: 4rem;
+  right: 11rem;
+}
+.photo-img {
+  width: 16rem;
+  height: 16rem;
+  border-radius: 69% 31% 69% 31% / 68% 66% 34% 32%;
+  background: url('../images/DSC_69411.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--color-primary);
+  position: absolute;
+  top: 5rem;
+  right: 12rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: bold;
+  margin: 0 0.25rem;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--radius);
+}
+
+@media (max-width: 576px) {
+  .jumbo {
+    height: 80vh;
+  }
+  .photo-img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -3rem;
+    right: 5.5rem;
+  }
+  .shape {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: -4rem;
+    right: 4rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .jumbo {
+    height: 70vh;
+  }
+  .photo-img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -3rem;
+    right: 13rem;
+  }
+
+  .shape {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: -4rem;
+    right: 12rem;
+  }
 }
