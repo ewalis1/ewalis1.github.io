@@ -25,6 +25,10 @@
 
 /* header */
 
+.row {
+  --bs-gutter-x: 0;
+}
+
 .navbar {
   box-shadow: var(--box-shadow);
 }
@@ -56,7 +60,7 @@
 }
 .jumbo {
   width: 100vw;
-  height: 60vh;
+  height: 80vh;
   background-color: #eeeded;
   box-shadow: var(--box-shadow);
 }
@@ -75,18 +79,18 @@
 }
 
 .shape {
-  width: 17rem;
-  height: 17rem;
+  width: 220px;
+  height: 220px;
   border-radius: 69% 31% 69% 31% / 68% 66% 34% 32%;
   background-color: var(--color-primary);
   box-shadow: var(--box-shadow);
   position: absolute;
-  top: 4rem;
-  right: 11rem;
+  top: -4rem;
+  right: 4rem;
 }
 .photo-img {
-  width: 16rem;
-  height: 16rem;
+  width: 200px;
+  height: 200px;
   border-radius: 69% 31% 69% 31% / 68% 66% 34% 32%;
   background: url('../images/DSC_69411.jpg');
   background-position: center;
@@ -95,8 +99,8 @@
   box-shadow: var(--box-shadow);
   border: 1px solid var(--color-primary);
   position: absolute;
-  top: 5rem;
-  right: 12rem;
+  top: -3rem;
+  right: 5.5rem;
 }
 
 .btn {
@@ -109,23 +113,23 @@
   border-radius: var(--radius);
 }
 
-@media (max-width: 576px) {
+@media (min-width: 789px) {
   .jumbo {
-    height: 80vh;
+    height: 60vh;
   }
   .photo-img {
-    width: 200px;
-    height: 200px;
+    width: 16rem;
+    height: 16rem;
     position: absolute;
-    top: -3rem;
-    right: 5.5rem;
+    top: 5rem;
+    right: 12rem;
   }
   .shape {
-    width: 220px;
-    height: 220px;
+    width: 17rem;
+    height: 17rem;
     position: absolute;
-    top: -4rem;
-    right: 4rem;
+    top: 4rem;
+    right: 11rem;
   }
 }
 
