@@ -50,7 +50,7 @@
           </div>
         </div>
       </nav>
-      <div class="jumbo row">
+      <div class="jumbo background row">
         <section class="header__short col-12 col-md-6">
           <div class="description">
             <h1 class="hi">Hello, I'm Ewa Lis</h1>
@@ -86,7 +86,7 @@
           <div class="about-me__image col-12 col-md-5 order-md-12"></div>
         </div>
       </section>
-      <section class="section skills row" id="skills">
+      <section class="section skills background row" id="skills">
           <div class="skills__description col-12 col-md-6">
             <h2 class="title">My skills</h2>
             <p>
@@ -133,7 +133,31 @@
           <div class="projects-image col-12 col-md-5 order-md-12"></div>
         </div>
       </section>
-      <section class="contact section"></section>
+      <section class="contact section background justify-content-center row" id="contact">
+        <div class="container col-12 col-md-7 contact__container">
+          <h2 class="title">Contact</h2>
+          <div class="form__section">
+            <form
+              action="https://formspree.io/f/xpzkrgpe"
+              method="POST"
+            >
+            <label>
+              Your full name:
+              <input type="text" name="name">
+            </label>
+            <label>
+              Your email:
+              <input type="email" name="_replyto">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+            <button class="btn" id="btn-contact" type="submit">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
       <a

@@ -5,13 +5,15 @@
 @import './about-me.css';
 @import './skills.css';
 @import './projects.css';
-
+@import './contact.css';
 /* header */
-
 .row {
   --bs-gutter-x: 0;
 }
-
+.background {
+  background-color: var(--color-background);
+  box-shadow: var(--box-shadow);
+}
 .navbar {
   box-shadow: var(--box-shadow);
 }
@@ -44,8 +46,6 @@
 .jumbo {
   width: 100vw;
   height: 80vh;
-  background-color: #eeeded;
-  box-shadow: var(--box-shadow);
 }
 
 .description {
@@ -105,7 +105,7 @@
 }
 
 .title:hover {
-  font-size: 2.5rem;
+  font-size: 2rem;
   transition: all 0.2s ease-in;
 }
 .container {

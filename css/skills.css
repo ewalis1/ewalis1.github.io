@@ -1,10 +1,5 @@
 @import './variables.css';
 
-.skills {
-  background-color: #eeeded;
-  box-shadow: var(--box-shadow);
-}
-
 .skills__description {
   margin: 2rem 0;
 }
@@ -59,7 +54,7 @@
     display: inline-block;
   }
   .skills__description p {
-    padding: 3rem;
+    padding: 0 3rem;
   }
   .skills__list {
     padding: 0;
