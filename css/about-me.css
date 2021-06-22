@@ -1,0 +1,49 @@
+@import './variables.css';
+
+.about-me {
+  padding: 1rem;
+  width: 100vw;
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__image {
+  width: 300px;
+  height: 300px;
+  background-image: url('../images/20943839.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-me__container {
+  width: 100vw;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 577px) {
+  .about-me {
+    margin: 0;
+    width: 100%;
+    height: 50vh;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .about-me__container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}
