@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import './variables.css';
 @import './about-me.css';
+@import './skills.css';
+@import './projects.css';
 
 /* header */
 
@@ -94,6 +96,22 @@
   border-radius: var(--radius);
 }
 
+.title {
+  margin-bottom: 2rem;
+  font-weight: bolder;
+  color: var(--color-primary);
+  text-shadow: 1px 1px #000000;
+  text-align: center;
+}
+
+.title:hover {
+  font-size: 2.5rem;
+  transition: all 0.2s ease-in;
+}
+.container {
+  max-width: 960px;
+}
+
 @media (min-width: 789px) {
   .jumbo {
     height: 60vh;
@@ -114,15 +132,6 @@
   }
 }
 
-.title {
-  font-weight: bolder;
-  color: var(--color-primary);
-  text-shadow: 1px 1px #000000;
-  text-align: center;
-}
-.container {
-  max-width: 960px;
-}
 @media (min-width: 577px) and (max-width: 768px) {
   .jumbo {
     height: 70vh;

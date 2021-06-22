@@ -1,0 +1,15 @@
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects__container {
+  margin: 2rem 0;
+}
+.projects-image {
+  width: 15rem;
+  height: 15rem;
+  background-image: url('../images/19199360.jpg');
+  background-position: center;
+  background-size: cover;
+}
