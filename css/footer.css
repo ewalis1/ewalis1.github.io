@@ -1,0 +1,57 @@
+@import './variables.css';
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.footer__list li {
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+.image-license {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+}
+
+.footer__list {
+  margin-bottom: 0.5rem 0;
+  padding-bottom: 1rem 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: var(--color-primary);
+}
+.footer__list a {
+  color: var(--color-primary);
+}
+
+.tooltip-email,
+.tooltip-phone {
+  position: relative;
+}
+.tooltip-email:hover::after {
+  padding: 0.5rem;
+  position: absolute;
+  top: 100%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 1rem;
+  content: 'ewa.lis0306@gmail.com';
+  display: block;
+}
+
+.tooltip-phone:hover::after {
+  padding: 0.5rem;
+  width: 8rem;
+  position: absolute;
+  top: 100%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-size: 1rem;
+  content: '+48 733 321 502';
+  display: block;
+}

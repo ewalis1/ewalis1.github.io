@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import './variables.css';
 @import './about-me.css';
 @import './skills.css';
 @import './projects.css';
 @import './contact.css';
-/* header */
+@import './footer.css';
+
 .row {
   --bs-gutter-x: 0;
 }
@@ -14,6 +14,9 @@
   background-color: var(--color-background);
   box-shadow: var(--box-shadow);
 }
+
+/* header */
+
 .navbar {
   box-shadow: var(--box-shadow);
 }
