@@ -13,7 +13,10 @@
 }
 
 .skills__description {
-  margin-top: 2rem;
+  margin: 0;
+}
+.skills__description p {
+  padding-left: 3rem;
 }
 
 .skills__list {
