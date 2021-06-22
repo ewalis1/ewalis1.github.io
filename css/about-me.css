@@ -1,15 +1,5 @@
 @import './variables.css';
 
-.about-me {
-  padding: 1rem;
-  width: 100vw;
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 .about-me__image {
   width: 300px;
   height: 300px;
@@ -29,16 +19,6 @@
 }
 
 @media (min-width: 577px) {
-  .about-me {
-    margin: 0;
-    width: 100%;
-    height: 50vh;
-    margin: 1rem 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
   .about-me__container {
     padding: 0;
     display: flex;
