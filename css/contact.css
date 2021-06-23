@@ -27,12 +27,5 @@ textarea {
 }
 
 #btn-contact {
-  margin: 0 6rem;
   padding: 0.5rem 2rem;
-}
-
-@media (min-width: 577px) {
-  #btn-contact {
-    margin: 0 17rem;
-  }
 }

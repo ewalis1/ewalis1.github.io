@@ -88,7 +88,9 @@
   top: -3rem;
   right: 5.5rem;
 }
-
+.link-a:hover {
+  color: black !important;
+}
 .btn {
   padding: 0.5rem;
   background-color: var(--color-primary);
@@ -128,19 +130,22 @@
   .jumbo {
     height: 60vh;
   }
+  .header__short {
+    padding-left: 5rem;
+  }
   .photo-img {
     width: 16rem;
     height: 16rem;
     position: absolute;
     top: 5rem;
-    right: 12rem;
+    right: 17rem;
   }
   .shape {
     width: 17rem;
     height: 17rem;
     position: absolute;
     top: 4rem;
-    right: 11rem;
+    right: 16rem;
   }
   .section {
     margin: 1rem 0;
