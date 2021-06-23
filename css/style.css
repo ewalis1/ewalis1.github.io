@@ -128,7 +128,7 @@
 
 @media (min-width: 789px) {
   .jumbo {
-    height: 60vh;
+    height: 50vh;
   }
   .header__short {
     padding-left: 5rem;
@@ -160,7 +160,7 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
   .jumbo {
-    height: 70vh;
+    height: 50vh;
   }
   .photo-img {
     width: 200px;
