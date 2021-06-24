@@ -33,6 +33,7 @@
 .nav-item {
   padding: 0 1rem;
   text-align: center;
+  border: 1px solid #f7f7f7;
 }
 .nav-item:hover {
   border: 1px solid var(--color-primary);
