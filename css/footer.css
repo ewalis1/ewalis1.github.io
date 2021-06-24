@@ -22,6 +22,7 @@ footer {
   padding-bottom: 1rem 0;
   list-style: none;
   display: flex;
+  justify-content: center;
   align-items: center;
   color: var(--color-primary);
 }
@@ -42,11 +43,12 @@ footer {
   font-size: 1rem;
   content: 'ewa.lis0306@gmail.com';
   display: block;
+  font-family: 'Roboto', sans-serif;
 }
 
 .tooltip-phone:hover::after {
   padding: 0.5rem;
-  width: 8rem;
+  width: 9rem;
   position: absolute;
   top: 100%;
   background-color: var(--color-primary);
@@ -54,4 +56,5 @@ footer {
   font-size: 1rem;
   content: '+48 733 321 502';
   display: block;
+  font-family: 'Roboto', sans-serif;
 }
