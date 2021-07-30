@@ -129,6 +129,14 @@
   flex-direction: column;
 }
 
+.resume-btn {
+  margin-top: 1rem;
+  margin-left: 20%;
+}
+.visible {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .jumbo {
     height: 50vh;
@@ -159,7 +167,7 @@
   .section {
     margin: 1rem 0;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -190,7 +198,7 @@
   .section {
     margin: 1rem 0;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     align-items: center;
