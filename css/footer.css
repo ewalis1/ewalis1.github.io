@@ -63,7 +63,7 @@ footer {
   font-size: 0.8rem;
 }
 
-.phone {
+.footer__list .sf-icon-telephone.e-btn.e-link.phone {
   font-size: 2rem;
   color: var(--color-primary);
 }
