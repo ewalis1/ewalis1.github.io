@@ -65,4 +65,5 @@ footer {
 
 .phone {
   font-size: 2rem;
+  color: var(--color-primary);
 }
